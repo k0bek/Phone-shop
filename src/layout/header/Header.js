@@ -13,12 +13,12 @@ function Header() {
 				<Wrapper>
 					<div className={styles["header-box"]}>
 						<p className={styles.company}>ReactTech</p>
-						<Cart></Cart>
+						<Cart/>
 					</div>
 				</Wrapper>
 			</header>
 			<div className={styles["header-img"]}></div>
-			<Description></Description>
+			<Description/>
 		</React.Fragment>
 	);
 }

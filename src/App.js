@@ -2,16 +2,16 @@ import Header from "./layout/header/Header";
 import Main from "./layout/main/Main";
 import Modal from "./components/modals/Modal";
 import { CartContext } from "./context/auth-context";
-import { useContext } from "react";
+import React, { useContext } from "react";
 
 function App() {
 	const { isModalShowed } = useContext(CartContext);
 	return (
-		<div>
-			{isModalShowed && <Modal></Modal>}
-			<Header></Header>
-			<Main></Main>
-		</div>
+		<React.Fragment>
+			{isModalShowed && <Modal />}
+			<Header />
+			<Main />
+		</React.Fragment>
 	);
 }
 

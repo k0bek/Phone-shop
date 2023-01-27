@@ -18,7 +18,7 @@ function ModalBackdrop({ children }) {
 export function ModalOverlay() {
 	return (
 		<div className={styles["modal-overlay"]}>
-			<Cart></Cart>
+			<Cart/>
 		</div>
 	);
 }
@@ -27,7 +27,7 @@ function Modal({ children }) {
 	return (
 		<React.Fragment>
 			{ReactDOM.createPortal(
-				<ModalBackdrop></ModalBackdrop>,
+				<ModalBackdrop/>,
 				document.getElementById("backdrop")
 			)}
 			{ReactDOM.createPortal(
