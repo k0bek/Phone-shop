@@ -1,0 +1,20 @@
+.summary {
+	width: 90%;
+	max-width: 800px;
+	margin: -10em auto;
+	padding: 4em 2em;
+	background-color: rgb(37, 37, 37);
+	color: white;
+	text-align: center;
+	border-radius: 20px;
+}
+
+h1 {
+	margin-bottom: 0.3em;
+}
+
+@media (min-width: 768px) {
+	p {
+		font-size: 2rem;
+	}
+}

@@ -1,0 +1,11 @@
+main {
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+	padding: 1.5em;
+	width: 90%;
+	max-width: 1200px;
+	margin: 15em auto;
+	background-color: white;
+	border-radius: 10px;
+}

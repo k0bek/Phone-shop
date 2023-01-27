@@ -1,0 +1,29 @@
+.cart-item {
+	display: flex;
+	justify-content: space-between;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+}
+
+.details {
+	display: flex;
+	gap: 0.5em;
+}
+
+.price {
+	font-weight: bold;
+}
+
+.amount-btns {
+	display: flex;
+	gap: 1em;
+}
+
+.input {
+	padding: 0.5em 0;
+	text-align: right;
+}

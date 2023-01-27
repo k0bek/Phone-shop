@@ -1,0 +1,53 @@
+.item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid gray;
+}
+
+.top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 0.7em;
+}
+.text {
+	display: flex;
+	flex-direction: column;
+	margin: 1em;
+	gap: 0.4em;
+}
+
+.desc {
+	font-style: italic;
+}
+
+.price {
+	color: rgb(255, 166, 0);
+	font-weight: bold;
+	font-size: 3rem;
+}
+
+.actions {
+	display: flex;
+	flex-direction: column;
+}
+
+.add {
+	align-self: flex-end;
+	font-size: 1.5rem;
+}
+
+input {
+	max-width: 3em;
+	margin-left: 0.4em;
+	padding: 0.2em 0.6em;
+	border: 1px solid black;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+.amount {
+	font-size: 1.8rem;
+	font-weight: bold;
+}
