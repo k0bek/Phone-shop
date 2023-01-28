@@ -1,7 +1,7 @@
 import styles from "./Item.module.css";
-import Button from "../../../components/ui/Button";
+import Button from "../ui/Button";
 import { useContext, useState } from "react";
-import { CartContext } from "../../../context/auth-context";
+import { CartContext } from "../../context/auth-context";
 
 function Item({ id, name, description, price }) {
 	const { value } = useContext(CartContext);

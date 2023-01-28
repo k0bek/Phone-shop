@@ -1,5 +1,5 @@
 import styles from "./Main.module.css";
-import Item from "./item/Item";
+import Item from "../../components/item/Item";
 import PHONES_LIST from "../../data/PHONES_LIST";
 
 function Main() {
