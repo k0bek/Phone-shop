@@ -1,5 +1,5 @@
 import Header from "./layout/header/Header";
-import Main from "./layout/main/Main";
+import PhoneList from "./components/phoneList/PhoneList";
 import Modal from "./components/modals/Modal";
 import { CartContext } from "./context/auth-context";
 import React, { useContext } from "react";
@@ -10,7 +10,7 @@ function App() {
 		<React.Fragment>
 			{isModalShowed && <Modal />}
 			<Header />
-			<Main />
+			<PhoneList />
 		</React.Fragment>
 	);
 }

@@ -1,8 +1,8 @@
-import styles from "./Main.module.css";
-import Item from "../../components/item/Item";
+import Item from "../item/Item";
 import PHONES_LIST from "../../data/PHONES_LIST";
+import styles from "./PhoneList.module.css";
 
-function Main() {
+function PhoneList() {
 	const phonesList = PHONES_LIST.map((phone) => {
 		return (
 			<Item
@@ -14,7 +14,7 @@ function Main() {
 			></Item>
 		);
 	});
-	return <main>{phonesList}</main>;
+	return <main className={styles.main}>{phonesList}</main>;
 }
 
-export default Main;
+export default PhoneList;

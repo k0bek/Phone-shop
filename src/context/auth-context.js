@@ -46,13 +46,12 @@ function cartReducer(state, action) {
 
 function CartContextProvider({ children }) {
 	const [isModalShowed, setModalShowed] = useState(false);
+	const [totalPrice, setTotalPrice] = useState(0);
 	const [cartState, dispatchCart] = useReducer(cartReducer, {
 		items: [],
 		totalPrice: 0,
 		totalItems: 0,
 	});
-
-	console.log(cartState);
 
 	if (isModalShowed) {
 		document.querySelector("body").style.overflow = "hidden";
